@@ -144,7 +144,7 @@ class NonTerminatedNodes:
         # underlying api calls may be done lazily.
         self.non_terminated_nodes_time = time.time() - start_time
         logger.info(
-            f"The autoscaler took {round(self.non_terminated_nodes_time, 3)}"
+            f"GRACHEV The autoscaler took {round(self.non_terminated_nodes_time, 3)}"
             " seconds to fetch the list of non-terminated nodes."
         )
 
